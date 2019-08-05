@@ -66,7 +66,7 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
 saver = tf.train.Saver()
 
-with tf.Session() as sess, open('test.log', 'w') as log:
+with tf.Session() as sess, open('test_vgg.log', 'w') as log:
 
     if tf.train.latest_checkpoint(model_path) is not None:
         saver.restore(sess, tf.train.latest_checkpoint(model_path))
