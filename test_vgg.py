@@ -2,9 +2,6 @@ import tensorflow as tf
 import os
 from model_vgg import VGG
 
-
-slim = tf.contrib.slim
-
 TYPE = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 test_datasets = 'datasets/test'
 
