@@ -1,5 +1,5 @@
 face_recognition==1.2.3
 opencv_python==4.1.0.25
-tensorflow==1.13.1
+tensorflow==2.5.3
 numpy==1.16.4
 
